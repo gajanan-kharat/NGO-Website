@@ -157,16 +157,14 @@ a:focus {
 
 /*   3.1 Headers Styles   */
 .header-fullpage{
-    background: #FFF;
-    padding-right: 0 !important;
-    -webkit-transition: all 0.15s linear;
+    background: linear-gradient(45deg, black, #956c1e);    -webkit-transition: all 0.15s linear;
     -moz-transition: all 0.15s linear;
     -o-transition: all 0.15s linear;
     transition: all 0.15s linear;
 }
 @media (min-width: 991.99px) {    
     .header-fullpage.fixed {
-        background: #FFF;
+        background: linear-gradient(45deg, black, #956c1e);
         box-shadow: 0px 0px 43px 0px rgba(2, 2, 2, 0.28);
         z-index: 1099;
     }
@@ -421,9 +419,10 @@ a:focus {
 }
 .navbar {
     padding: 1rem 0;
+    height: 150px;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-    color: #5A3A31;
+    color: whitesmoke;
     text-transform: capitalize;
     padding: 0.5rem 0.9rem;
     font-weight: 700;
@@ -536,7 +535,7 @@ a:focus {
 
 .top-bar-right {
     padding: 0.4rem 0;
-    background: #31231E;
+    background: linear-gradient(45deg, black, #956c1e);
     font-size: 0.775rem;
     font-weight: normal;
     color: #ffffff;
@@ -1243,13 +1242,13 @@ blockquote:before,
 /*--- btn default --*/
 .btn-default, .btn-default:disabled, .btn-default:hover:disabled {
 	color: #fff;
-	background-color: #D59B2D;
-	border-color: #D59B2D;
+	background-color: black;
+	border-color: #477763;;
 }
 .btn-default:hover, .btn-default:hover:enabled {
 	color: #fff;
-	background-color: #c18a21;
-	border-color: #c18a21;
+	background-color: #477763;
+	border-color: #242320;
 }
 .btn-default.focus,
 .btn-default:focus {
@@ -1494,11 +1493,11 @@ blockquote:before,
 /*--- btn outline primary --*/
 .btn-outline-primary, .btn-outline-primary:disabled, .btn-outline-primary:hover:disabled {
 	color: #477763;
-	background-color: transparent;
+	background-color: black;
 	border-color: #477763;
 }
 .btn-outline-primary:hover {
-	color: #3e6e5a;
+	color: #bd0f0f;
 	background-color: transparent;
 	border-color: #3e6e5a;
 }
@@ -4131,7 +4130,7 @@ footer .social-icons a:hover{
 /*   Home Page Second Start   */
 .header-style-fullwidth,
 .header-style-fullwidth .top-bar-right{
-    background: transparent;
+    background: linear-gradient(45deg,);
     box-shadow: none;
 }
 .header-style-fullwidth{
