@@ -123,6 +123,10 @@ img{
 header .container{
     max-width: 1350px;
 }
+.navbar-brand img{
+    height: 200px;
+    width: 250px;
+}
 label {
     font-size: 0.875rem;
 }
@@ -647,7 +651,7 @@ a:focus {
     z-index: -99;
 }
 .breadcrumbs-page {
-    background-image: url(../images/breadcrumbs_bg.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center !important;
     max-width: 100%;
@@ -3938,13 +3942,13 @@ footer .social-icons a:hover{
     text-align: center;
 }
 .funds-committed small{
-    display: block;
-    font-size: 100%;
+    display: inline-block;
+    font-size: 2rem;
     font-weight: 700;
 }
 .funds-committed .counter{
     color: #477763;
-    font-size: 2.7rem;
+    font-size: 2rem;
     line-height: 1.2;
     padding-left: 30px;
     position: relative;
@@ -3954,7 +3958,7 @@ footer .social-icons a:hover{
 .funds-committed .counter::after{
     position: absolute;
     z-index: 1;
-    content: "$";
+    content: "";
     font-family: 'Nunito', sans-serif;
     left: 0;
 }
