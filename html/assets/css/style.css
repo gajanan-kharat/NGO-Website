@@ -783,6 +783,7 @@ h2.h2-xl { font-size: 1.5rem; }     /* 24px */
     position: relative;
     text-transform: capitalize;
     margin-bottom: 15px;
+    margin-top: 15px;
     display: block;
     font-size: 1.2rem;
     font-weight: 600;
@@ -1246,8 +1247,8 @@ blockquote:before,
 	border-color: #477763;;
 }
 .btn-default:hover, .btn-default:hover:enabled {
-	color: #fff;
-	background-color: #477763;
+	color: black;
+	background: rgb(1, 134, 95);
 	border-color: #242320;
 }
 .btn-default.focus,
@@ -1646,13 +1647,13 @@ blockquote:before,
 
 /*--- btn outline-dark --*/
 .btn-outline-dark {
-	color: #716d6c;
-	background-color: transparent;
-	border-color: #716d6c;
+	color: white;
+	background-color: black;
+	border-color: #477763;;
 }
 .btn-outline-dark:hover {
-	color: #282424;
-	background-color: transparent;
+	color: black;
+	background-color: rgb(1, 134, 95);
 	border-color: #282424;
 }
 .btn-outline-dark.focus,
@@ -4151,7 +4152,7 @@ footer .social-icons a:hover{
 .home-style-second.main-banner{
     margin: 0;
     min-height: 700px;
-    background-color: #5A3A31;
+    background:linear-gradient(45deg, black, transparent);
 }
 .home-style-second.main-banner::before,
 .home-style-second.main-banner::after{
@@ -4181,13 +4182,13 @@ footer .social-icons a:hover{
     right: 61px;
 }
 .header-style-fullwidth .request-btn a#search_home{
-    background: rgba(255, 255, 255, 0.3);
+    background: black;
     border: none;
     color: #FFF;
     padding: 0.7rem 1rem;
 }
 .header-style-fullwidth .request-btn a#search_home:hover{
-    background: rgba(255, 255, 255, 0.9);
+    background: rgb(1, 134, 95);;
     color: #333;
 }
 .header-style-fullwidth .navbar-expand-lg .navbar-nav .nav-link{
