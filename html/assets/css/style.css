@@ -118,6 +118,7 @@ body {
 }
 img{
     max-width: 100%;
+
 }
 
 header .container{
@@ -928,7 +929,7 @@ h2.h2-xl { font-size: 1.5rem; }     /* 24px */
 	background-position: left center !important;
 }
 .bg-img-1{
-	background-image: url(assets/images/logoNGO.png;
+	background-image: url(assets/images/logoNGO.png);
 	background-repeat: no-repeat;
 	background-position: left center !important;
 }
@@ -2054,8 +2055,28 @@ footer{
 }
 .logo-footer{
     margin-bottom: 25px;
+    margin-left:40px;
 }
-
+.word{
+    line-height:20px;
+    font-family: 'Playfair Display', serif;
+}
+p #word1{
+   margin-left: 43px;
+}
+p #word2{
+    margin-left: 45px;
+    font-size: 22px;
+    font-weight:bold;
+ }
+ .location{
+    margin-bottom: 20px;
+ }
+ .location span{
+    margin-left:35px;
+    font-family: 'Playfair Display', serif;
+    font-weight:bold;
+ }
 .footer-heading {
     font-size: 1.125rem;
     color: #FFF;
