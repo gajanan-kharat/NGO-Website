@@ -632,6 +632,10 @@ a:focus {
     border-color: rgba(255,255,255,.2);
     padding-top: 0;
 }
+.btn-outline-primary{
+    width: 70px;
+    height: 30px;
+}
 /* 3.3 Top Bars End */
 
 /*------------------------------------------*/
@@ -2054,8 +2058,8 @@ footer{
     background-size: cover;
 }
 .logo-footer{
-    margin-bottom: 25px;
-    margin-left:40px;
+    /* margin-bottom: 25px;
+    margin-left:40px; */
 }
 .word{
     line-height:20px;
@@ -2069,11 +2073,30 @@ p #word2{
     font-size: 22px;
     font-weight:bold;
  }
- .location{
+.wordAbout{
+    line-height:20px;
+    font-family: 'Playfair Display', serif;
+}
+p #word1About{
+   margin-left: 43px;
+}
+p #word2About{
+    margin-left: 43px;
+    font-size: 22px;
+    font-weight:bold;
+ }
+.location{
     margin-bottom: 20px;
  }
- .location span{
+.location span{
     margin-left:35px;
+    font-family: 'Playfair Display', serif;
+    font-weight:bold;
+ }
+.locationAbout{
+    margin-bottom: 20px;
+}
+.locationAbout span{
     font-family: 'Playfair Display', serif;
     font-weight:bold;
  }
